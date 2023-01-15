@@ -1,0 +1,75 @@
+body{
+  background-image: url("assets/home/background-home-desktop.jpg");
+  color: white;
+}
+img{
+  position: absolute;
+  left: 200px;
+  top: 60px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+h1{
+  font-size: 6rem;
+  margin: 1rem auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+  padding: 14px 16px;
+}
+
+li{
+  float: left;
+}
+p{
+  text-align: justify;
+  width: 25%;
+}
+
+hr{
+  margin-top: 85px;
+  width: 30%;
+  margin-left: 20%;
+  border-style: solid none none none;
+}
+
+.top-box{
+  position: absolute;
+  right:0;
+  top: 45px;
+  font-size: 1.5rem;
+  padding: 15px 150px 15px 60px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.space-box{
+  position: absolute;
+  top: 250px;
+  left:200px;
+}
+
+.circle{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  right: 350px;
+  bottom: 150px;
+}
